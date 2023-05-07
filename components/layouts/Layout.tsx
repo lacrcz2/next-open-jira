@@ -20,7 +20,7 @@ export const Layout: FC<Props> = ({ title = 'OpenJira App', children }) => {
         <Sidebar />
 
         <Box sx={{ padding: '10px' }}>
-            <h1>Hola mundo</h1>
+            { children }
         </Box>
     </Box>
   )
